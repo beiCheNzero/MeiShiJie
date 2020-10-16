@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* list-style: none; */
+}
+/*
+   KISSY CSS Reset
+   理念：
+       1：reset的目的不是清除浏览器的默认样式，这仅是部分工作。清除和重置是紧密不可分的。
+       2：reset的目的不是让默认样式在所有浏览器下一致，而是减少默认样式有可能带来的问题。
+       3：reset期望提供一套普适通用的基础样式。但没有银弹，推荐根据具体需求，裁剪和修改后再使用。
+       特色：1：适应中文；2：基于最新主流浏览器
+*/
+/*1.1清除内外边距*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*1.2设置默认字体*/
+body,button,input,select,textarea{
+    font-family: 微软雅黑;
+    font-size: 12px;
+    background-color: white;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%;
+}
+address,cite,dfn,em,var{
+    font-style: normal;/*将斜体扶正*/
+}
+code,kbd,pre,samp{
+    font-family: 'Courier New', Courier, monospace;/*统一等宽字*/
+}
+small{
+    font-size: 12px;/*小于12px的中文很难阅读，让small正常化*/
+}
+/*1.3重置列表元素*/
+ul,ol{
+    list-style: none;
+    
+}
+/*1.4重置a标签元素*/
+a{
+    text-decoration: none;
+}
+a:hover{
+    /* text-decoration: underline; */
+}
+/*1.5重置img标签元素_---解决图片3px的问题*/
+img{
+    vertical-align: middle;
+}
+/*1.6重置表单元素*/
+legend{
+    color: #000000;
+}
+fieldset,img{
+    border: 0px;/*img搭车：让链接里有img元边框*/
+}
+button,input,select,textarea{
+    font-size: 100%;
+}
+/*1.7重置表格元素*/
+table{
+    border-collapse: collapse;
+    border-spacing:0;
+}
+ul li{
+    list-style: none;
+}

@@ -1,0 +1,39 @@
+/*清除浮动*/
+.clear{
+    clear: both;
+}
+
+.font14px{
+   font-size: 14px; 
+}
+
+.font16px{
+    font-size: 16px; 
+ }
+
+ .font18px{
+    font-size: 18px; 
+ }
+
+ .font20px{
+    font-size: 20px; 
+ }
+
+ .font22px{
+    font-size: 22px; 
+ }
+
+/*左浮动*/
+.left_float{
+    float: left;
+}
+
+/*右浮动*/
+.right_float{
+    float: right;
+}
+
+/*加粗*/
+.bold{
+    font-weight: bold;
+}

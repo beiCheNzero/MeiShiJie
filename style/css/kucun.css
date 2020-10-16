@@ -1,0 +1,73 @@
+/* .container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 500;
+  background: #fae8c8;
+
+}
+.main{
+  width: 990px;
+  margin: 0px auto;
+  height: 100%;
+  background: #fae8c8;
+
+} */
+.wrapper {
+  width: 980px;
+  margin: 20px auto;
+  background-image: url(images/dzh.jpg);
+}
+.wraper .h2{
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+.add {
+  margin-bottom: 20px;
+}
+.add a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #6D6B6C;
+  padding: 6px;
+  border-radius: 5px;
+}
+.add a:hover{
+  color: red;
+}
+table {
+  max-width: 100%;
+  background-color: transparent;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+td,th{
+  text-align: center;
+  font-size: 16px;
+}
+table tr{
+  border-bottom: 10px;
+}
+table tr td img{
+  width: 80px;
+}
+
+
+td a{
+  background-color: salmon;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,11 @@
+.content{
+  width: 100%;
+  position: relative;
+  z-index: 300;
+  background: #fae8c8;
+}
+.wrapper{
+  width: 980px;
+  margin: 0px auto;
+  padding: 20px 0;
+}

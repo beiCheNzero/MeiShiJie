@@ -1,0 +1,27 @@
+.content{
+  width: 100%;
+  position: relative;
+  z-index: 300;
+  background: #fae8c8;
+}
+.wrapper{
+  width: 980px;
+  margin: 0px auto;
+  padding: 20px 0;
+}
+.wrapper h2{
+  font-size: 35px;
+  text-align: center;
+  margin: 10px;
+  font-weight: 700;
+}
+table tr th{
+  border:1px solid black;
+  text-align: center;
+  padding: 10px 20px;
+}
+table tr td{
+  text-align: center;
+  border:1px solid black;
+  padding: 10px 20px;
+}

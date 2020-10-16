@@ -1,0 +1,34 @@
+.l780{
+  left: -708px;
+}
+#fankui>input:nth-last-child(1){
+  background: #00e8ff;
+  /* font-weight: bold; */
+  font-size: 18px;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+  /* margin-left: 23%; */
+  border: none;
+}
+.sub>:hover{
+  background: red;
+
+}
+#fankui>label{
+  font-size: 21px;
+}
+#fankui>input{
+  display: block;
+  margin-bottom: 5px;
+  width: 500px;
+  height: 28px;
+  border: 2px solid #bfbfbf;
+}
+#fankui>textarea{
+  display: block;
+  width: 500px;
+  height: 150px;
+}
